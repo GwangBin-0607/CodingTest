@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		880C9E83299321570039869B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C9E82299321570039869B /* main.swift */; };
+		880C9E9629935BFD0039869B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C9E9529935BFD0039869B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		880C9E7D299321570039869B /* CopyFiles */ = {
+		880C9E9029935BFD0039869B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		880C9E7F299321570039869B /* Backjoon_1260_DFS&BFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Backjoon_1260_DFS&BFS"; sourceTree = BUILT_PRODUCTS_DIR; };
-		880C9E82299321570039869B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		880C9E9229935BFD0039869B /* 1260_DFS&BFS_BackJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1260_DFS&BFS_BackJoon"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880C9E9529935BFD0039869B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		880C9E7C299321570039869B /* Frameworks */ = {
+		880C9E8F29935BFD0039869B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		880C9E76299321570039869B = {
+		880C9E8929935BFD0039869B = {
 			isa = PBXGroup;
 			children = (
-				880C9E81299321570039869B /* Backjoon_1260_DFS&BFS */,
-				880C9E80299321570039869B /* Products */,
+				880C9E9429935BFD0039869B /* 1260_DFS&BFS_BackJoon */,
+				880C9E9329935BFD0039869B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		880C9E80299321570039869B /* Products */ = {
+		880C9E9329935BFD0039869B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				880C9E7F299321570039869B /* Backjoon_1260_DFS&BFS */,
+				880C9E9229935BFD0039869B /* 1260_DFS&BFS_BackJoon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		880C9E81299321570039869B /* Backjoon_1260_DFS&BFS */ = {
+		880C9E9429935BFD0039869B /* 1260_DFS&BFS_BackJoon */ = {
 			isa = PBXGroup;
 			children = (
-				880C9E82299321570039869B /* main.swift */,
+				880C9E9529935BFD0039869B /* main.swift */,
 			);
-			path = "Backjoon_1260_DFS&BFS";
+			path = "1260_DFS&BFS_BackJoon";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		880C9E7E299321570039869B /* Backjoon_1260_DFS&BFS */ = {
+		880C9E9129935BFD0039869B /* 1260_DFS&BFS_BackJoon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 880C9E86299321570039869B /* Build configuration list for PBXNativeTarget "Backjoon_1260_DFS&BFS" */;
+			buildConfigurationList = 880C9E9929935BFD0039869B /* Build configuration list for PBXNativeTarget "1260_DFS&BFS_BackJoon" */;
 			buildPhases = (
-				880C9E7B299321570039869B /* Sources */,
-				880C9E7C299321570039869B /* Frameworks */,
-				880C9E7D299321570039869B /* CopyFiles */,
+				880C9E8E29935BFD0039869B /* Sources */,
+				880C9E8F29935BFD0039869B /* Frameworks */,
+				880C9E9029935BFD0039869B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Backjoon_1260_DFS&BFS";
-			productName = "Backjoon_1260_DFS&BFS";
-			productReference = 880C9E7F299321570039869B /* Backjoon_1260_DFS&BFS */;
+			name = "1260_DFS&BFS_BackJoon";
+			productName = "1260_DFS&BFS_BackJoon";
+			productReference = 880C9E9229935BFD0039869B /* 1260_DFS&BFS_BackJoon */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		880C9E77299321570039869B /* Project object */ = {
+		880C9E8A29935BFD0039869B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					880C9E7E299321570039869B = {
+					880C9E9129935BFD0039869B = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 880C9E7A299321570039869B /* Build configuration list for PBXProject "Backjoon_1260_DFS&BFS" */;
+			buildConfigurationList = 880C9E8D29935BFD0039869B /* Build configuration list for PBXProject "1260_DFS&BFS_BackJoon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 880C9E76299321570039869B;
-			productRefGroup = 880C9E80299321570039869B /* Products */;
+			mainGroup = 880C9E8929935BFD0039869B;
+			productRefGroup = 880C9E9329935BFD0039869B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				880C9E7E299321570039869B /* Backjoon_1260_DFS&BFS */,
+				880C9E9129935BFD0039869B /* 1260_DFS&BFS_BackJoon */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		880C9E7B299321570039869B /* Sources */ = {
+		880C9E8E29935BFD0039869B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880C9E83299321570039869B /* main.swift in Sources */,
+				880C9E9629935BFD0039869B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		880C9E84299321570039869B /* Debug */ = {
+		880C9E9729935BFD0039869B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		880C9E85299321570039869B /* Release */ = {
+		880C9E9829935BFD0039869B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		880C9E87299321570039869B /* Debug */ = {
+		880C9E9A29935BFD0039869B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		880C9E88299321570039869B /* Release */ = {
+		880C9E9B29935BFD0039869B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		880C9E7A299321570039869B /* Build configuration list for PBXProject "Backjoon_1260_DFS&BFS" */ = {
+		880C9E8D29935BFD0039869B /* Build configuration list for PBXProject "1260_DFS&BFS_BackJoon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				880C9E84299321570039869B /* Debug */,
-				880C9E85299321570039869B /* Release */,
+				880C9E9729935BFD0039869B /* Debug */,
+				880C9E9829935BFD0039869B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		880C9E86299321570039869B /* Build configuration list for PBXNativeTarget "Backjoon_1260_DFS&BFS" */ = {
+		880C9E9929935BFD0039869B /* Build configuration list for PBXNativeTarget "1260_DFS&BFS_BackJoon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				880C9E87299321570039869B /* Debug */,
-				880C9E88299321570039869B /* Release */,
+				880C9E9A29935BFD0039869B /* Debug */,
+				880C9E9B29935BFD0039869B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 880C9E77299321570039869B /* Project object */;
+	rootObject = 880C9E8A29935BFD0039869B /* Project object */;
 }
